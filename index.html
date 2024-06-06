@@ -3,9 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scam Of Span</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>inline element box model</title>
   </head>
   <body>
-    <span>HTML</span><span>CSS</span><span>Java Script</span>
+    <p>block element p</p>
+    <span id="inl"> HTML CSS</span>
+    <span id="inline">
+      in css inline element don't take height and width but it will take padding
+      that will be over/in other element if you want give height and width in a
+      inline element you have to use display properties inline to block & can
+      also use inline-block properties
+    </span>
+    <span class="inline-block">inline block</span
+    ><span class="inline-block">inline block</span>
+    <span class="inline-block">inline block</span>
+    <div>block element</div>
+    <img src="image.png" alt="this is a replaced inline element" />
+    <h3> iframe , video , embed , img  ... this elements are called replaced inline elements : because we can use everything that is use in a block element with out changing its properties into display : block
+     
+    </h3>
+    <h3><center>Embed Tag</center></h3>
+    <embed width="auto" src="https://docs.emmet.io/cheat-sheet/" type="">
+
+      <h1>display none is use to hide a element</h1>
   </body>
 </html>
